@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "format": "tar.gz",
+  "branch": "master",
+  "dest": "./build",
+  "commands": [
+    { "cmd": "gulp --production" },
+    { "cmd": "composer install" }
+  ]
+}
