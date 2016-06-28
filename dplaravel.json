@@ -1,10 +1,11 @@
+
 {
-  "name": "test",
+  "name": "project-name",
   "branch": "master",
   "dest": "build",
   "commands": [
-    { "cmd": "gulp --production" },
-    { "cmd": "composer install" }
+    { "cmd": "composer install --no-ansi --no-dev --no-interaction --no-scripts --optimize-autoloader" },
+    { "cmd": "gulp --production" }
   ],
   "sftp": {
     "host": "",
